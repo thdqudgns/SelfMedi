@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
+id="WebApp_ID" version="4.0">
+
+  <display-name>SelfMedi</display-name>
+  <welcome-file-list>
+    <welcome-file>main</welcome-file>
+  </welcome-file-list>
+
+  <!-- 필터 클래스 등록 -->
+  <filter>
+  	<filter-name>HangulEncodingFilter</filter-name>
+  	<filter-class>com.fulldoping.filter.EncodingFilter</filter-class>
+  </filter>
+  
+  <!-- Error Page 설정 -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/views/error/404e.jsp</location>
+	</error-page>
+
+	<error-page>
+		<error-code>405</error-code>
+		<location>/WEB-INF/views/error/405e.jsp</location>
+	</error-page>
+  
+	<error-page>
+		<error-code>500</error-code>
+		<location>/WEB-INF/views/error/500e.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<exception-type>java.lang.NullPointerException</exception-type>
+		<location>/WEB-INF/views/error/nullPointer.jsp</location>
+	</error-page>
+
+  
+  <filter>
+  	<filter-name>AdminFilter</filter-name>
+  	<filter-class>com.fulldoping.filter.AdminLoginFilter</filter-class>
+  </filter>
+  
+
+  <!-- 필터 클래스가 적용될 URL-Pattern 적용 -->
+  <!-- 위에서 정의한 'filter-name'이름의 필터를 어느 URL에 적용할 것인가.-->
+  <filter-mapping>
+  	<filter-name>HangulEncodingFilter</filter-name> 
+  	<url-pattern>/selftest/*</url-pattern>
+  	<url-pattern>/member/*</url-pattern>
+
+<!--   	이외에도 한글인코딩이 필요한 servlet class의 URL주소를 추가로 적어야 한다 -->
+<!--   	<url-pattern>/서블릿주소</url-pattern> -->
+<!--   	<url-pattern>/서블릿주소</url-pattern> -->
+
+  </filter-mapping>
+  
+  <filter-mapping>
+  	<filter-name>AdminFilter</filter-name> 
+  	<url-pattern>/ad/*</url-pattern>
+  </filter-mapping>
+  
+  
+</web-app>
