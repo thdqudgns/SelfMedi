@@ -29,6 +29,7 @@ public class AdFreeDeleteController extends HttpServlet {
 		resp.sendRedirect("/ad/free/list");	
 		
 		//수정
+		//수정22
 	}
 
 }
