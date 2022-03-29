@@ -1,5 +1,14 @@
 # :pushpin: 1. SelfMedi
 
+### 본인 담당 코드
+- [자가진단](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/src/com/fulldoping/selftest)
+- [자가진단 view](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/WebContent/WEB-INF/views/selftest)
+- [에러페이지](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/WebContent/WEB-INF/views/error)
+- [필터링](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/src/com/fulldoping/filter)
+- [UI-header](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/WebContent/WEB-INF/views/layout)
+- [UI-MainPage](https://github.com/thdqudgns/SelfMedi/blob/master/SelfMedi/WebContent/WEB-INF/views/main.jsp)
+- [UI-footer](https://github.com/thdqudgns/SelfMedi/blob/master/SelfMedi/WebContent/WEB-INF/views/layout/footer.jsp)
+
 ### :bulb: 개요 
 보다 쉽고 간편하게 **건강기능식품**을 추천받아 제품을 구매하고 복용하여 건강관리에 도움을 주는 서비스를 제공합니다. 어떤 영양을 챙겨야할지 고민인 사용자, 부모님 연령대에 필요한 영양제가 궁금한 사용자, 온라인에 무분별한 광고로 고민인 사용자, 현재 복용 중인 영양제에 추가영양제를 먹어도 될지 고민인 사용자들을 위한 서비스를 제공합니다.
 
