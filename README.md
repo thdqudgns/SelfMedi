@@ -5,7 +5,7 @@
 - [자가진단 view](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/WebContent/WEB-INF/views/selftest)
 - [에러페이지](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/WebContent/WEB-INF/views/error)
 - [필터링](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/src/com/fulldoping/filter)
-- [UI-header](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/WebContent/WEB-INF/views/layout)
+- [UI-header](https://github.com/thdqudgns/SelfMedi/blob/master/SelfMedi/WebContent/WEB-INF/views/layout/header.jsp)
 - [UI-MainPage](https://github.com/thdqudgns/SelfMedi/blob/master/SelfMedi/WebContent/WEB-INF/views/main.jsp)
 - [UI-footer](https://github.com/thdqudgns/SelfMedi/blob/master/SelfMedi/WebContent/WEB-INF/views/layout/footer.jsp)
 
