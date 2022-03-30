@@ -1,4 +1,5 @@
 # :pushpin: 1. SelfMedi
+Spring을 사용하지 않고 Servlet/JSP 기반으로 개발했습니다.
 
 ### 본인 담당 코드
 - [자가진단](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/src/com/fulldoping/selftest)
