@@ -4,6 +4,7 @@ Spring을 사용하지 않고 Servlet/JSP 기반으로 개발했습니다.
 ### 본인 담당 코드
 - [자가진단](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/src/com/fulldoping/selftest)
 - [자가진단 view](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/WebContent/WEB-INF/views/selftest)
+- [관리자](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/src/com/fulldoping/admin)
 - [에러페이지](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/WebContent/WEB-INF/views/error)
 - [필터링](https://github.com/thdqudgns/SelfMedi/tree/master/SelfMedi/src/com/fulldoping/filter)
 - [UI-header](https://github.com/thdqudgns/SelfMedi/blob/master/SelfMedi/WebContent/WEB-INF/views/layout/header.jsp)
