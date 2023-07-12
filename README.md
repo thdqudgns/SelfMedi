@@ -11,7 +11,12 @@ Spring을 사용하지 않고 Servlet/JSP 기반으로 개발했습니다.
 - [UI-MainPage](https://github.com/thdqudgns/SelfMedi/blob/master/SelfMedi/WebContent/WEB-INF/views/main.jsp)
 - [UI-footer](https://github.com/thdqudgns/SelfMedi/blob/master/SelfMedi/WebContent/WEB-INF/views/layout/footer.jsp)
 
-### :bulb: 개요 
+### :bulb: 느낀점
+첫 프로젝트라 걱정이 많았지만, 팀원들과 분업을 하며 머리를 맞대어 하나씩 해결해 나가면 된다는 것을 깨달았습니다. 팀원들과의 협력과 커뮤니케이션 및 신뢰가 중요함을 알았습니다. 그동안 배운 Servlet, jQuery, jstl, JSP기반의 MVC2 모델 흐름을 확실하게 알게 되었고, 배우지 않았던 여러 기능과 구현 방법도 검색을 통해 배웠습니다. 한편으로는 시간적 여유가 부족해 원했던 기능들을 다 넣지 못해 아쉬웠고, 모르는 것이 많음을 알게 되었습니다. 
+
+---
+
+# :bulb: 개요 
 보다 쉽고 간편하게 **건강기능식품**을 추천받아 제품을 구매하고 복용하여 건강관리에 도움을 주는 서비스를 제공합니다. 어떤 영양을 챙겨야할지 고민인 사용자, 부모님 연령대에 필요한 영양제가 궁금한 사용자, 온라인에 무분별한 광고로 고민인 사용자, 현재 복용 중인 영양제에 추가영양제를 먹어도 될지 고민인 사용자들을 위한 서비스를 제공합니다.
 
 ### :bulb: 구현 기능 
@@ -61,9 +66,6 @@ Spring을 사용하지 않고 Servlet/JSP 기반으로 개발했습니다.
 
 ### :bulb: 기여도
 - 20% (구성원 7명)
-
-### :bulb: 느낀점
-첫 프로젝트라 걱정이 많았지만, 팀원들과 분업을 하며 머리를 맞대어 하나씩 해결해 나가면 된다는 것을 깨달았습니다. 팀원들과의 협력과 커뮤니케이션 및 신뢰가 중요함을 알았습니다. 그동안 배운 Servlet, jQuery, jstl, JSP기반의 MVC2 모델 흐름을 확실하게 알게 되었고, 배우지 않았던 여러 기능과 구현 방법도 검색을 통해 배웠습니다. 한편으로는 시간적 여유가 부족해 원했던 기능들을 다 넣지 못해 아쉬웠고, 모르는 것이 많음을 알게 되었습니다. 
 
 ### :bulb: 작동원리
 - Servlet기반의 Controller에서는 Service파일로 이동하여 코드를 수행하거나 web page view로 이동하여 페이지를 보여주는 작동을 하고
