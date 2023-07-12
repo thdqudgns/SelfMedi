@@ -11,3 +11,6 @@
 
 ## 공지
 ![ERD4_공지사항 테이블](https://github.com/thdqudgns/SelfMedi/assets/92148521/20f8f2ab-a0c2-43a5-b02d-cbff18f22d09)
+
+## 전체
+![self-medi](https://github.com/thdqudgns/SelfMedi/assets/92148521/825b748d-16cc-45a0-9d2b-81b9ff0d12eb)
